@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data-Art Section</title>
+    <link rel="stylesheet" href="CSSFlder/normalize.css" />
+    <link rel="stylesheet" href="CSSFlder/da.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <!-- This line of code is for the burger button when size of screen changes.
+      we ar cheching if it is clicked.-->
+      <input type="checkbox" id="check" />
+      <label for="check" class="burger-button"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <!--The code below is a container for all the hyperlink
+    that will be shown on my homepage-->
+      <ul>
+        <li><a href="index.html" class="active">Homepage</a></li>
+        <li><a href="blog.html" class="active">Blog</a></li>
+        <li><a href="dv.html" class="active">Data-Visualisation</a></li>
+        <li><a href="styleguide.html" class="active">Styleguide</a></li>
+      </ul>
+    </nav>
+  </header>
+
+      <main>
+        <h1> DATA-ART:</h1>
+      </main>
+
+      <!-- These few lines of code are just to test if the cookies are eneabled when the page loads-->
+      <p id="demo"></p>
+
+<script>
+function checkCookies() {
+  var text = "";
+  if (navigator.cookieEnabled == true) {
+    text = "Cookies are enabled.";
+  } else {
+    text = "Cookies are not enabled.";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+</body>
+</html>
