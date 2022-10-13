@@ -1,0 +1,109 @@
+/* This is CSS code for the body and general aestich of the page*/
+body {
+    background-color: rgba(173, 216, 230, 0.174);
+}
+
+
+/*this is CSS code for the header and navigation*/
+
+nav{
+    float: right;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 3px;
+    }
+    
+   nav a{
+        font-size: 25px;
+        color:white;
+        text-decoration: none;
+        font-weight:bold;
+        text-transform: capitalize;
+        margin-top: 10px;
+    }
+    
+    a.active{
+        background: rgba(169, 169, 169, 0.618);
+        padding: 10px 20px;
+        border-radius: 50px;
+    }
+    
+    nav ul{
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav li{
+        float: left;
+        display: inline;
+        padding: 0 10px 0 10px;
+    }
+  
+  h1{
+      text-align: center;
+      color: black;
+      font-size: 40px;
+      text-decoration: underline;
+      padding-top: 10%;
+  }
+
+  main{
+    align-items: center;
+  }
+
+  h3{
+    text-align: center;
+    margin-top: 5%;
+    text-decoration: underline;
+  }
+
+  /* styling for the graph*/
+
+  svg{
+    align-items: center;
+    margin-left: 35%;
+    size: 30%;
+  }
+  
+  /* This is the CSS code for the responsiveness of the webiste */
+
+.burger-button{
+    font-size: 30px;
+    color: white;
+    float: right;
+    margin-right: 40px;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+@media (max-width: 800px){
+    .burger-button{
+        display: block;
+    }
+
+    nav ul{
+        position: fixed;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.479);
+        height: 100vh;
+        text-align: center;
+        top: 50px;
+        left: -100%;
+        transition: all 1s;
+    }
+
+    nav ul li{
+        display:block;
+        padding-top: 30px;
+        padding: auto;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+}
