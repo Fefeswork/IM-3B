@@ -1,4 +1,4 @@
-/* This is CSS code for the body and general aestich of the page*/
+/* This is CSS code for the body and general aesthetic of the page*/
 body {
   background-color: rgba(173, 216, 230, 0.174);
 }
@@ -40,8 +40,9 @@ nav{
 
 h1{
     text-align: center;
-    color: white;
+    color: black;
     font-size: 40px;
+    padding-right: 10%;
     text-decoration: underline;
 
 }
@@ -68,6 +69,11 @@ img{
    width: 80%;
    margin-left: 10%;
 
+}
+
+.styleguide
+{
+  padding-top: 10%;
 }
 
 /* the CSS code below controls the styling fo the image slider*/
