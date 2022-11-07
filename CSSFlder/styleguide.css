@@ -14,7 +14,7 @@ nav{
   
  nav a{
       font-size: 25px;
-      color:white;
+      color:black;
       text-decoration: none;
       font-weight:bold;
       text-transform: capitalize;
@@ -38,11 +38,12 @@ nav{
       padding: 0 10px 0 10px;
   }
 
-h1{
+h2{
     text-align: center;
     color: black;
     font-size: 40px;
-    padding-right: 10%;
+    padding-right: 5em;
+    padding-left: 5em;
     text-decoration: underline;
 
 }
@@ -61,6 +62,11 @@ p{
     color: white;
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*This code is for the body of the page*/
+main{
+  padding-top: 10%;
 }
 
 /* resize the image on the profile*/

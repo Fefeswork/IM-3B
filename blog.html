@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Blog page</title>
-    <link rel="stylesheet" href="CSSFlder/normalize.css" />
-    <link rel="stylesheet" href="CSSFlder/blog.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styleguide</title>
+  <link rel="stylesheet" href="CSSFlder/normalize.css" />
+  <link rel="stylesheet" href="CSSFlder/BlogPgMain.css" />
+
 </head>
+<body>
+  <style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+</style>
+
+</head>
+
 <body>
   <header>
     <nav>
@@ -22,34 +41,61 @@
     that will be shown on my homepage-->
       <ul>
         <li><a href="index.html" class="active">Homepage</a></li>
-        <li><a href="styleguide.html" class="active">Styleguide</a></li>
-        <li><a href="dv.html" class="active">Data-Visualisation</a></li>
         <li><a href="da.html" class="active">Data-Art</a></li>
+        <li><a href="dv.html" class="active">Data-Visualisation</a></li>
+        <li><a href="styleguide.html" class="active">Styleguide</a></li>
       </ul>
     </nav>
   </header>
 
-      <main>
-        <h1>BLOG POSTS:</h1>
-        
-      
+  <main>
 
-        <section>
-          <a href="BlogPost1.html">
-            <h1>BLOG POST 1</h1>
-            <h2>Data Data-Visualisation</h2>
-            <button onclick="goto()">Overview of Data-Visulalisation</button>
-          </a>
   
-          <a href="BlogPost2.html">
-            <button onclick="goto()">UI/UX Reflection </button>
-          </a>
-        </section>
+  <h1>Styleguide</h1>
+<section>
+<div class="card">
+  <img src="Images/SG(WFcover).jpg" alt="Avatar" style="width:50%">
+  <div class="container">
+    <h4><b>BLOG POST 1</b></h4> 
+    <p>Overview of Dta Data-Visualisation</p> 
+    <a href="BlogPost1.html">Read</a>
+  </div>
+</div>
+</section>
 
-        <!-- This line of code refers to the JavaScript code-->
-        <script src="blog.js"></script>
+<section>
+  <div class="card">
+    <img src="Images/SG(WFcover).jpg" alt="Avatar" style="width:50%">
+    <div class="container">
+      <h4><b>BLOG POST 2</b></h4> 
+      <p>Critical refelction on UX/UX of website</p> 
+      <a href="BlogPost2.html">Read</a>
+    </div>
+  </div>
+  </section>
 
-       
-      </main>
+  <section>
+    <div class="card">
+      <img src="Images/SG(WFcover).jpg" alt="Avatar" style="width:50%">
+      <div class="container">
+        <h4><b>BLOG POST 3</b></h4> 
+        <p>What is interaction for data Data-Visualisation</p> 
+        <a href="BlogPost3.html">Read</a>
+      </div>
+    </div>
+    </section>
+
+    <section>
+      <div class="card">
+        <img src="Images/SG(WFcover).jpg" alt="Avatar" style="width:50%">
+        <div class="container">
+          <h4><b>BLOG POST 4</b></h4> 
+          <p>Critical reflection on Data-driven artwork</p> 
+          <a href="BlogPost4.html">Read</a>
+        </div>
+      </div>
+      </section>
+    </main>
+</body>
 </body>
 </html>
