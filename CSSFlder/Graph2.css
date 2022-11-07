@@ -80,21 +80,21 @@ nav{
 /*This is for the headings*/
 
 Section{
-    padding-top: 10em;
-    padding-left: 35em;
+    padding-top: 7em;
+    padding-left: 30em;
 }
 
 h1{
    
-    padding-right: 40m;
+    padding-right: 20em;
     text-decoration: underline;
 
 }
 
 h3{
    
-    padding-right: 10em;
+    padding-right: 15em;
     padding-top: 2em;
-    font-size: 20px;
+    text-decoration: underline;
 
 }

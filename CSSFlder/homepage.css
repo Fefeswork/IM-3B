@@ -16,7 +16,7 @@ nav{
     
    nav a{
         font-size: 25px;
-        color:white;
+        color:black;
         text-decoration: none;
         font-weight:bold;
         text-transform: capitalize;
@@ -44,24 +44,27 @@ nav{
 
     main{
         align-items: center;
+        padding-left: 5em;
+        padding-top: 14em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    p{
+        text-align: center;
+        font-family: "VT323 rev=1";
+        font-size: 20px;
     }
 
 .Description{
-    float: left;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
-    background-color: rgba(211, 211, 211, 0.31);
-    margin-top: 10%;
-    margin-left: 5%;
-    padding: 10px 5px ;
-    text-align: center;
-    font-size: 30px;
     
+    background-color: rgba(211, 211, 211, 0.373);   
 }
 
 h1{
     font-size: 40px;
     background-color: transparent;
+    text-align: center;
+    text-decoration: underline;
 }
 
 
@@ -73,9 +76,8 @@ footer{
     text-align: center;
     color: black;
     font-weight: bold;
-    padding-top: 38%;
-    padding-left: 5%;
-    margin-right: 5%;
+    padding-top: 12em;
+   
 }
 
 

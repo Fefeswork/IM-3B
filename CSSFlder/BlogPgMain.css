@@ -40,37 +40,54 @@ nav{
 
    
 
-    /*This CSS is for the main body of the page*/
 
-    main{
-        padding-top: 10em;
-        padding-left: 35em;
-    }
+     /*This is for the card styling*/
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 37px auto 0;
+    width: calc(280px * 4);
+    padding-top: 5em;
+    padding-left: 10em;
 
-    h1{
-        text-align: center;
-        padding-right: 15em;
-        text-decoration: underline;
-    }
+  }
+  
+  .card {
+    box-shadow: 0 3px 10px 0 #aaa;
+    cursor: pointer;
+    height: 280px;
+    position: relative;
+    width: 243px;
+    box-sizing: 40px;
+  }
+  
+  .card h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .card.visited {
+    box-shadow: 0 3px 10px 2px #444;
+  }
 
-    a{
-        color: black;
-        padding-left: 20em;
-        text-decoration: none;
-    }
+  /* resize the image on the profile*/
+img{
+    image-rendering: optimizeQuality;
+   width: 80%;
+   margin-left: 10%;
 
-    img{
-        padding-left: 5em;
-    }
+}
+/*
+This Css code is for the body of the page*/
 
-    
-    h4{
-        text-align: center;
-        text-decoration: underline;
-    }
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-    p{
-        text-align: center;
-    }
+article{
+    padding-top: 10em;
+}
 
    
