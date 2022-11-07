@@ -57,16 +57,53 @@ nav{
     text-decoration: underline;
   }
 
-  /* styling for the graph*/
-
-  svg{
-    align-items: center;
-    margin-left: 35%;
-    size: 30%;
+  /*This is for the card styling*/
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 37px auto 0;
+    width: calc(280px * 4);
   }
-  .bar {
-    fill: steelblue;
-}
+  
+  .card {
+    box-shadow: 0 3px 10px 0 #aaa;
+    cursor: pointer;
+    height: 280px;
+    position: relative;
+    width: 243px;
+  }
+  
+  .card h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .card.visited {
+    box-shadow: 0 3px 10px 2px #444;
+  }
+  section{
+    padding-top: 20em;
+  }
+  
+  @media (max-width: 1100px) {
+    .cards {
+      grid-template-columns: 1fr 1fr;
+      width: calc(280px * 2);
+    }
+    .card {
+      margin: 0 auto 2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .cards {
+      display: block;
+      width: 100vw;
+    }
+    .card {
+      margin: 0 auto 2rem;
+    }
+  }
   
   /* This is the CSS code for the responsiveness of the webiste */
 
