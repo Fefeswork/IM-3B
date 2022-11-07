@@ -69,6 +69,11 @@ main{
   padding-top: 10%;
 }
 
+.card{
+  display: inline-block;
+}
+
+
 /* resize the image on the profile*/
 img{
     image-rendering: optimizeQuality;

@@ -38,21 +38,38 @@ nav{
         padding: 0 10px 0 10px;
     }
 
-    a{
-        color: black;
-        padding-left: 30em;
-    }
+   
 
-    /*This CSS is for the main bpdy of the page*/
+    /*This CSS is for the main body of the page*/
 
     main{
         padding-top: 10em;
+        padding-left: 35em;
     }
 
     h1{
         text-align: center;
+        padding-right: 15em;
+        text-decoration: underline;
+    }
+
+    a{
+        color: black;
+        padding-left: 20em;
     }
 
     img{
-        padding-left: 10em;
+        padding-left: 5em;
     }
+
+    
+    h4{
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    p{
+        text-align: center;
+    }
+
+   
