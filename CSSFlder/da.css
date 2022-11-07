@@ -13,9 +13,10 @@ nav{
     
    nav a{
         font-size: 25px;
-        color:white;
+        color:black;
         text-decoration: none;
         font-weight:bold;
+        font-family: 'Times New Roman', Times, serif;
         text-transform: capitalize;
         margin-top: 10px;
     }
@@ -40,15 +41,14 @@ nav{
 
     h1{
         text-align: center;
-        color: black;
-        font-size: 40px;
         text-decoration: underline;
-        padding-top: 10%;
+        padding-right: 15em;
     }
 
     /*This css is for the body of the page*/
     .words{
         padding-top: 10em;
+        padding-left: 35em;
     }
 
     /* This is the CSS code for the responsiveness of the webiste */

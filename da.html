@@ -35,17 +35,19 @@
   </header>
 
   <section class="words">
+    <h1>DATA-DRIVEN ARTWORK</h1>
     <!-- Create a div where the graph will take place -->
 <div id="my_dataviz"></div>
+
 <script>
 
   // List of words
-  var myWords = ["Hello", "Everybody", "How", "Are", "You", "Today", "It", "Is", "A", "Lovely", "Day", "I", "Love", "Coding", "In", "My", "Van", "Mate", "Peace", "Love", "Keep", "The", "Good", "Work", "Make", "Love", "Not", "War","Surfing","R", "R",
-     "Data-Viz","Python","Linux","Programming","Graph Gallery","Biologie", "Resistance",
-     "Computing","Data-Science","Reproductible","GitHub","Script", "Experimentation","Talk","Conference","Writing",
-     "Publication","Analysis","Bioinformatics","Science","Statistics","Data",
-     "Programming","Wheat","Virus","Genotyping","Work","Fun","Surfing","R", "R",
-     "Data-Viz","Python","Linux","Programming"]
+  var myWords = ["Tekken", "Mortal Kombat", "Broforce", "DuckGame", "Soul Calibur", "Jak x", "God of War", "Spider-man", "Titanfall 2", "Killzone", "Doom", "Tomb Raider", "NBA2K", "Gran Turismo", "Devil May Cry", "Outlast", "30 seconds", "Ludo", "Shadow of Modor", "Rocket Leauge", "Apex Legends", "Jak 3", "GTAV", "Driveclub", "Red dead Redemption 2", "Crash Bandicoot", "Sekiro", "Uncharted","Nioh","Metal Slug", "Sonic",
+     "Guilty Gear","Sleeping dogs","NBA Playgrounds","WWE Battlgrounds","Mad Max","Marvel vs. Capcom", "Batman: Arkham city",
+     "Infamous","Enter the gungeon","Monopoly","Twister","Snakes and Ladders", "Horizon Zero Dawn","Ratchet and Clank","Shadow of War","Bound",
+     "Hitman","Fifa","Jump Force","Street Fighter","Dungeon Punks","Injustice",
+     "Ghost in the shell","Marvel's Ultimate Alliance","Just Cause","The Witcher","Bloodbourne","Deadpool","DBZ- Ultimate Tenkaichi","It takes Two", "Jak 1",
+     "Dirt 5","Fortnite","Shadow of the Tomb Raider","Cards against Humanity"]
   
   // set the dimensions and margins of the graph
   var margin = {top: 10, right: 10, bottom: 10, left: 10},
@@ -90,6 +92,12 @@
           .text(function(d) { return d.text; });
   }
   </script>
+
+  <footer>
+    <p>
+      Refresh page to see words change!
+    </p>
+  </footer>
     </section>
 </body>
 </html>
