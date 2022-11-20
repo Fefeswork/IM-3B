@@ -17,10 +17,13 @@
     src: url(../Fonts/Minecraft.ttf);
   }
 
+  cursor{
+    cursor: auto;
+  }
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding: 0 2px;
   }
 
   .column {
@@ -34,7 +37,7 @@
 
   .container {
     position: relative;
-    width: 100%;
+    width: 80%;
     cursor: auto;
   }
 
