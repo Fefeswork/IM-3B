@@ -74,6 +74,10 @@ nav{
     
     
 }
+
+P{
+  background-color: rgba(128, 128, 128, 0.719);
+}
   
   h1{
     text-align: center;
