@@ -1,3 +1,11 @@
+/*adding custom font*/
+
+@font-face {
+    font-family: 'Minecraft';
+    src: url(../Fonts/Pixeled.ttf);
+  }
+  
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -42,10 +50,21 @@
     opacity: 0.5;
   }
 
-  h3{
-    text-align: center;
-    color: wheat;
+  h2{
+text-align: center;
+font-family: 'Minecraft';
+color: black;
+padding-left: 5em;
   }
+
+  h4{
+    text-align: center;
+    font-family: 'Minecraft';
+    color: wheat;
+    padding-left: 6em;
+  }
+
+
   
   .text {
     color: white;
