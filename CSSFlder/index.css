@@ -61,6 +61,7 @@ body{
     height: 100px;
 }
 
+
 h1{
     font-family: 'Minecraft';
     font-size: large;
@@ -68,20 +69,28 @@ h1{
     color: black;
     padding-top: 10em;
 }
-article{
-    padding-left: 5em;
-}
 
 #section-right{
     width:400px;
+    margin-bottom: 30px;
     margin-left:30px;
     padding-right: 8em;
+    padding-top: 5em;
     float:right;
 }
 
-.description{
-    
+p{
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Pixel';
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 5em;
+    color: wheat;
 }
+
+
+
 img{
     image-rendering: optimizeQuality;
 
