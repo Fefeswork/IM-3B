@@ -74,14 +74,16 @@ h1{
     width:400px;
     margin-bottom: 30px;
     margin-left:30px;
-    padding-right: 8em;
+    position: relative;
+    bottom: 20px;
     padding-top: 5em;
+    padding-right: 50em;
     float:right;
 }
 
 p{
     text-align: center;
-    font-size: 12px;
+    font-size: 20px;
     font-family: 'Pixel';
     padding-left: 5em;
     padding-right: 5em;
