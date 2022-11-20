@@ -16,6 +16,10 @@
     font-family: 'Minecraft2';
     src: url(../Fonts/Minecraft.ttf);
   }
+  @font-face {
+    font-family: 'Pixelmix';
+    src: url(../Fonts/pixelmix.ttf);
+  }
   
 /*this is CSS code for the header and navigation*/
 
@@ -74,21 +78,19 @@ h1{
     width:400px;
     margin-bottom: 30px;
     margin-left:30px;
-    position: relative;
-    bottom: 20px;
-    padding-top: 5em;
-    padding-right: 50em;
+    padding-top: 6em;
+    padding-right: 13em;
     float:right;
 }
 
 p{
     text-align: center;
     font-size: 20px;
-    font-family: 'Pixel';
-    padding-left: 5em;
-    padding-right: 5em;
-    padding-bottom: 5em;
-    color: wheat;
+    font-family: 'Pixelmix';
+    position: relative;
+    bottom: 400px;
+    color:black;
+    background: rgba(119, 136, 153, 0.671);
 }
 
 
