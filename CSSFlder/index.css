@@ -79,7 +79,7 @@ h1{
     margin-bottom: 30px;
     margin-left:30px;
     padding-top: 6em;
-    padding-right: 13em;
+    padding-right: 12em;
     float:right;
 }
 
@@ -97,5 +97,6 @@ p{
 
 img{
     image-rendering: optimizeQuality;
+    padding-top: 10em;
 
 }
