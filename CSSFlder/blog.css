@@ -59,12 +59,12 @@ section{
 }
 
 .blog{
-    background: rgba(128, 128, 128, 0.733);
+    background: rgba(128, 128, 128, 0.77);
 }
 
 p{
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 img{
