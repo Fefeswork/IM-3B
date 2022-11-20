@@ -1,0 +1,119 @@
+/*adding custom font*/
+
+@font-face {
+    font-family: 'Minecraft';
+    src: url(../Fonts/Pixeled.ttf);
+  }
+  
+  /*this is CSS code for the header and navigation*/
+  
+  nav{
+    float: right;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 3px;
+    }
+    
+   nav a{
+        font-size: 10px;
+        font-family: 'Minecraft';
+        color:white;
+        text-decoration: none;
+        font-weight:bold;
+        text-transform: capitalize;
+        margin-top: 10px;
+    }
+    
+    a.active{
+        background: rgba(169, 169, 169, 0.673);
+        border-radius: 20px;
+        padding: 10px 10px;
+    }
+    
+    nav ul{
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav li{
+        float: left;
+        display: inline;
+        padding: 0 10px 0 10px;
+    }
+  
+  /*For the general aesthetic of the website*/
+  body{
+    background: url(http://twistedsifter.com/wp-content/uploads/2013/05/animated-gifs-of-fighting-game-backgrounds-25.gif)no-repeat center fixed;
+    background-size: cover;
+    height: 100px;
+  }
+  
+  section{
+    padding-top: 7em;
+    align-items: center;
+  }
+  
+  h1{
+    text-align: center;
+    font-family: 'Minecraft';
+    color: black;
+  }
+  
+  h3{
+    text-align: center;
+    font-family: 'Minecraft';
+    color:white;
+  }
+  
+  /*CSS for clickable cards*/
+  .cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      margin: 37px auto 0;
+      width: calc(280px * 4);
+    }
+    
+    .card {
+      box-shadow: 0 3px 10px 0 #aaa;
+      cursor: pointer;
+      height: 280px;
+      position: relative;
+      width: 243px;
+      background: rgba(128, 128, 128, 0.645);
+    }
+    
+    .card h2 {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    
+    .card.visited {
+      box-shadow: 0 3px 10px 2px #444;
+    }
+    
+    @media (max-width: 1100px) {
+      .cards {
+        grid-template-columns: 1fr 1fr;
+        width: calc(280px * 2);
+      }
+      .card {
+        margin: 0 auto 2rem;
+      }
+    }
+    
+    @media (max-width: 768px) {
+      .cards {
+        display: block;
+        width: 100vw;
+      }
+      .card {
+        margin: 0 auto 2rem;
+      }
+    }
+  
+    img{
+      image-rendering: optimizeQuality;
+     width: 80%;
+     margin-left: 10%;
+  
+  }

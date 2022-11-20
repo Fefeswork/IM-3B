@@ -1,0 +1,159 @@
+/*adding custom font*/
+
+@font-face {
+  font-family: 'Minecraft';
+  src: url(../Fonts/Pixeled.ttf);
+}
+
+
+/* resize the image on the profile*/
+img{
+    image-rendering: optimizeQuality;
+   width: 60%;
+   margin-left: 10em;
+
+}
+
+/*this is CSS code for the header and navigation*/
+
+nav{
+  float: right;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding-top: 3px;
+  }
+  
+ nav a{
+      font-size: 10px;
+      font-family: 'Minecraft';
+      color:white;
+      text-decoration: none;
+      font-weight:bold;
+      text-transform: capitalize;
+      margin-top: 10px;
+  }
+  
+  a.active{
+      background: rgba(169, 169, 169, 0.673);
+      border-radius: 20px;
+      padding: 10px 10px;
+  }
+  
+  nav ul{
+      margin: 0;
+      padding: 0;
+  }
+  
+  nav li{
+      float: left;
+      display: inline;
+      padding: 0 10px 0 10px;
+  }
+
+/*general look of page*/
+body{
+    background: url(http://twistedsifter.com/wp-content/uploads/2013/05/animated-gifs-of-fighting-game-backgrounds-25.gif)no-repeat center fixed;
+    background-size: cover;
+    height: 100px;
+}
+
+section{
+  padding: 5em;
+}
+h2{
+  text-align: center;
+  font-family: 'Minecraft';
+  color: black;
+}
+
+/* the CSS code below controls the styling fo the image slider*/
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.screenshot-container {
+  max-width: 1000px;
+  position: relative;
+  margin:auto;
+  padding-right: 11%;
+}
+
+/* Hide the images by default */
+.myScreenshots {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 2px 0 0 1px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/4 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: none;
+  align-items: center;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

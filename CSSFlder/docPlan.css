@@ -3,11 +3,11 @@
 @font-face {
     font-family: 'Minecraft';
     src: url(../Fonts/Pixeled.ttf);
-}
-
-/*this is CSS code for the header and navigation*/
-
-nav{
+  }
+  
+  /*this is CSS code for the header and navigation*/
+  
+  nav{
     float: right;
     margin-top: 10px;
     margin-left: 10px;
@@ -40,35 +40,22 @@ nav{
         display: inline;
         padding: 0 10px 0 10px;
     }
-
-
-/*general aestetic*/
-body{
-    background: url(http://twistedsifter.com/wp-content/uploads/2013/05/animated-gifs-of-fighting-game-backgrounds-25.gif)no-repeat center fixed;
-    background-size: cover;
-    height: 100px;
-}
-h2{
-    font-family: 'Minecraft'; 
+  
+  /*For the general aesthetic of the website*/
+  body{
+      background: url(http://twistedsifter.com/wp-content/uploads/2013/05/animated-gifs-of-fighting-game-backgrounds-25.gif)no-repeat center fixed;
+      background-size: cover;
+      height: 100px;
+  }
+  
+  section{
+    padding-top: 7em;
+    align-items: center;
+  }
+  
+  h1{
     text-align: center;
-}
-
-section{
-    padding-top: 5em;
-}
-
-.blog{
-    background: rgba(128, 128, 128, 0.733);
-}
-
-p{
-    text-align: center;
-    font-family: sans-serif;
-}
-
-img{
-    image-rendering: optimizeQuality;
-   width: 60%;
-   margin-left: 15em;
-
-}
+    font-family: 'Minecraft';
+    color: black;
+  }
+  

@@ -1,0 +1,10 @@
+/*adding custom font*/
+
+@font-face {
+    font-family: 'Minecraft';
+    src: url(../font/Minecraft.ttf);
+}
+
+p{
+    font-family: 'Minecraft'; 
+}
