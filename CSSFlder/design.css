@@ -49,8 +49,9 @@ body{
 }
 
 section{
-  padding-top: 7em;
+  padding-top: 5em;
   align-items: center;
+  padding-right: 5em;
 }
 
 h1{

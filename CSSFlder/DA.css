@@ -15,7 +15,7 @@
 
   .container {
     position: relative;
-    width: 85%;
+    width: 100%;
     cursor: auto;
   }
 
@@ -46,6 +46,7 @@
     text-align: center;
     color: wheat;
   }
+  
   .text {
     color: white;
     font-size: 20px;
