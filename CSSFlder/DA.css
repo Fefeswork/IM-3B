@@ -81,8 +81,8 @@ padding-left: 5em;
 
   
   .text {
-    color: rgb(55, 52, 52);
-    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
     position: absolute;
     top: 50%;
     left: 50%;
