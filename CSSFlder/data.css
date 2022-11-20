@@ -1,10 +1,21 @@
-/*adding custom font*/
+/*adding custom fonts*/
 
 @font-face {
     font-family: 'Minecraft';
     src: url(../Fonts/Pixeled.ttf);
   }
-  
+  @font-face {
+    font-family: 'Pixel';
+    src: url(../Fonts/I-pixel-u.ttf);
+  }
+  @font-face {
+    font-family: 'Pixelfy';
+    src: url(../Fonts/Pixelfy.ttf);
+  }
+  @font-face {
+    font-family: 'Minecraft2';
+    src: url(../Fonts/Minecraft.ttf);
+  }
   /*this is CSS code for the header and navigation*/
   
   nav{
@@ -58,11 +69,23 @@
     font-family: 'Minecraft';
     color: black;
   }
+
+  .click{
+    font-family: 'Minecraft2';
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+  }
   
   h3{
     text-align: center;
     font-family: 'Minecraft';
-    color:white;
+    color:black;
+  }
+  
+  p{
+    font-family: 'Minecraft2';
+    color: black;
   }
   
   /*CSS for clickable cards*/

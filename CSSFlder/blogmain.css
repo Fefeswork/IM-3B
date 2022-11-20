@@ -4,6 +4,18 @@
   font-family: 'Minecraft';
   src: url(../Fonts/Pixeled.ttf);
 }
+@font-face {
+  font-family: 'Pixel';
+  src: url(../Fonts/I-pixel-u.ttf);
+}
+@font-face {
+  font-family: 'Pixelfy';
+  src: url(../Fonts/Pixelfy.ttf);
+}
+@font-face {
+  font-family: 'Minecraft2';
+  src: url(../Fonts/Minecraft.ttf);
+}
 
 /*For the general aesthetic of the website*/
 body{
@@ -23,7 +35,17 @@ h1{
 h3{
   text-align: center;
   font-family: 'Minecraft';
-  color:whitesmoke;
+  color:black;
+}
+.click{
+  font-family: 'Minecraft2';
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+p{
+  font-family: 'Minecraft2';
+  color: black;
 }
 
 /*this is CSS code for the header and navigation*/
