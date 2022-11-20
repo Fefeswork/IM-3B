@@ -70,4 +70,22 @@
     font-family: 'Minecraft';
     color: black;
   }
+  .body{
+    background: rgba(128, 128, 128, 0.77);
+}
+
+.wc{
+  padding-right: 150em;
+}
+  p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img{
+    image-rendering: optimizeQuality;
+   width: 60%;
+   margin-left: 15em;
+
+}
   
