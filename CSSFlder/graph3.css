@@ -80,7 +80,7 @@ section{
 #section-right {
     width:400px;
     margin-left:30px;
-    padding-right: 8em;
+    padding-right: 10em;
     padding-top: 5em;
     float:right;
     background-color:  rgba(211, 211, 211, 0.67);
@@ -98,3 +98,18 @@ section{
     color:black;
     margin-right: 3px;
   }
+  h4{
+    text-align: center;
+    font-family: 'Minecraft';
+    color:black;
+    margin-right: 3px;
+  }
+
+  P{
+    font-family: 'Minecraft2';
+    color: rgba(0, 0, 0, 0.771)
+  }
+
+article{
+  padding-left: 8em;
+}

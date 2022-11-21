@@ -1,7 +1,7 @@
 
 // normal price
 var data1 = [
-  {title: "Thief: Deadly Shadows", value: 8},
+  {title: "Thief", value: 8},
   {title: "Cybernetica: Final", value: 18},
   {title: "Tekken 7", value: 8},
   {title: "Vector Race", value: 18}
@@ -9,7 +9,7 @@ var data1 = [
 
 //sale price
 var data2 = [
-  {title: "Thief: Deadly Shadows", value: 0.98},
+  {title: "Thief", value: 0.98},
   {title: "Cybernetica: Final", value: 1.89},
   {title: "Tekken 7", value: 20},
   {title: "Vector Race", value: 1.89}
@@ -68,7 +68,7 @@ var data2 = [
        .attr("y", function(d) { return y(d.value); })
        .attr("width", x.bandwidth())
        .attr("height", function(d) { return height - y(d.value); })
-       .attr("fill", "wheat")
+       .attr("fill", "#8F9779")
  
    // If less group in the new dataset, I delete the ones not in use anymore
    u
