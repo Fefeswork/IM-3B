@@ -71,10 +71,19 @@ body{
 section{
   padding: 5em;
 }
+
 h2{
   text-align: center;
   font-family: 'Minecraft';
   color: black;
+}
+
+p{
+  color: rgba(255, 255, 255, 0.855);
+}
+
+article{
+  background-color: #7171718a;
 }
 
 /* the CSS code below controls the styling fo the image slider*/
