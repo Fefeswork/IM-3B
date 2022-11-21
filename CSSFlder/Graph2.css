@@ -61,10 +61,17 @@ nav{
   }
   
   section{
-    padding-top: 7em;
+    padding-top: 3em;
     align-items: center;
   }
+
+  svg{
+    background-color: rgba(128, 128, 128, 0.675);
+  }
   
+  .body{
+    padding-left: 20em;
+  }
   h1{
     text-align: center;
     font-family: 'Minecraft';
