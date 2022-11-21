@@ -74,7 +74,7 @@ section{
     float: left;
     padding-top: 5em;
     padding-left: 2em;
-    background-color:  rgba(211, 211, 211, 0.51);
+    background-color:  rgba(211, 211, 211, 0.697);
     
  }
 #section-right {
@@ -83,7 +83,7 @@ section{
     padding-right: 8em;
     padding-top: 5em;
     float:right;
-    background-color:  rgba(211, 211, 211, 0.51);
+    background-color:  rgba(211, 211, 211, 0.67);
 }
 
   h1{
