@@ -1,17 +1,19 @@
-// create 2 data_set
+
+// normal price
 var data1 = [
-    {group: "A", value: 4},
-    {group: "B", value: 16},
-    {group: "C", value: 8},
-    {group: "D", value: 8}
- ];
- 
- var data2 = [
-    {group: "A", value: 7},
-    {group: "B", value: 1},
-    {group: "C", value: 20},
-    {group: "D", value: 10}
- ];
+  {title: "Thief: Deadly Shadows", value: 8},
+  {title: "Cybernetica: Final", value: 18},
+  {title: "Tekken 7", value: 8},
+  {title: "Vector Race", value: 18}
+];
+
+//sale price
+var data2 = [
+  {title: "Thief: Deadly Shadows", value: 0.98},
+  {title: "Cybernetica: Final", value: 1.89},
+  {title: "Tekken 7", value: 20},
+  {title: "Vector Race", value: 1.89}
+];
  
  // set the dimensions and margins of the graph
  var margin = {top: 30, right: 30, bottom: 70, left: 60},
@@ -45,7 +47,7 @@ var data1 = [
  function update(data) {
  
    // Update the X axis
-   x.domain(data.map(function(d) { return d.group; }))
+   x.domain(data.map(function(d) { return d.title; }))
    xAxis.call(d3.axisBottom(x))
  
    // Update the Y axis
@@ -62,11 +64,11 @@ var data1 = [
      .merge(u) // get the already existing elements as well
      .transition() // and apply changes to all of them
      .duration(1000)
-       .attr("x", function(d) { return x(d.group); })
+       .attr("x", function(d) { return x(d.title); })
        .attr("y", function(d) { return y(d.value); })
        .attr("width", x.bandwidth())
        .attr("height", function(d) { return height - y(d.value); })
-       .attr("fill", "grey")
+       .attr("fill", "wheat")
  
    // If less group in the new dataset, I delete the ones not in use anymore
    u
