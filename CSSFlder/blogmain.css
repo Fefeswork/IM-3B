@@ -47,6 +47,9 @@ p{
   font-family: 'Minecraft2';
   color: black;
 }
+article{
+  margin-top: 15px;
+}
 
 /*this is CSS code for the header and navigation*/
 
