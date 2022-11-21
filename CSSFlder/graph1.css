@@ -76,3 +76,23 @@ nav{
     font-family: 'Minecraft';
     color:white;
   }
+  svg{
+    margin-top: 10px;
+    background-color: rgba(211, 211, 211, 0.744);
+}
+img{
+    position: absolute;
+    top: 500px;
+    left: 400px;
+    transform: translate(-50% -50%) scale(0.5);
+}
+
+#loading{
+    text-align: center;
+    color: antiquewhite;
+}
+
+.datav-container{
+padding-left: 10em;
+
+}
