@@ -2,7 +2,8 @@
 var data1 = [
     {group: "A", value: 4},
     {group: "B", value: 16},
-    {group: "C", value: 8}
+    {group: "C", value: 8},
+    {group: "D", value: 8}
  ];
  
  var data2 = [
